@@ -253,7 +253,7 @@ pub trait FrameAllocator {
 This allows us to create another, more advanced frame allocator in the future.
 
 ### The Allocator
-Now we can put everything together and create the actual frame allocator. Therefor we create a `src/memory/area_frame_allocator.rs` submodule. The allocator struct looks like this:
+Now we can put everything together and create the actual frame allocator. Therefore we create a `src/memory/area_frame_allocator.rs` submodule. The allocator struct looks like this:
 
 ```rust
 use memory::{Frame, FrameAllocator};
